@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* border: solid black; */
+}
+
+.container {
+    margin: 0 70px;
+}
+
+/* menu */
+.navbar {
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(19, 43, 179, 0.6);
+}
+
+.navbar .menu-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .menu {
+    height: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navbar .menu .fas {
+    margin-right: 20px;
+    color: white;
+}
+
+.navbar .menu .nav-logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar .menu ul li {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    cursor: pointer;
+    /* box-sizing: unset; */
+}
+
+.navbar .menu .logo {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    /* flex-grow: 2; */
+}
+
+.navbar .menu .travel {
+    font-weight: 400;
+}
+
+
+/* menu Hover */
+.navbar .menu ul li:hover {
+    font-size: 1.1em;
+    font-weight: 300;
+    /* transition: all .5s; */
+}
+
+.navbar .menu .fa-search:hover {
+    font-size: 1.8em;
+}
+
+
+
+
+/* header */
+.header {
+    background-image: url(img/background2.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.header .container {
+    position: relative;
+    top: 30%;
+    text-transform: uppercase;
+    color: white;
+}
+
+.header h3 {
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: -15px;
+    font-size: 1.3 em;
+}
+
+.header h1 {
+    font-size: 7em;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.header h4 {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.header .border {
+    border-bottom: 3px solid white;
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.header p {
+    font-size: 1em;
+    font-weight: 200;
+    text-transform: initial;
+    display: inline-block;
+    width: 30%;
+}
+
+.header .social {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 2.5em;
+}
+
+.header .social .fab {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header .fa-chevron-down {
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    color: white;
+}
+
+.header .social .fab:hover {
+    font-size: 2.1em;
+}
+
